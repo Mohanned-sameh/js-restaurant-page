@@ -1,0 +1,93 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    box-sizing: content-box;
+    text-align: center;
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 2em;
+
+}
+.transparent{
+    height: 100%;
+    width: 100%;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    background-color: rgba(97, 92, 64, 0.5);
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    list-style: none;
+}
+.link a{
+    border: 2px black solid;
+    transition: all 0.5s;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.link a:hover{
+    border: 3px rgba(51, 51, 51, 0.5) solid;
+    transition: all 0.5s;    
+    border-radius: 10px;
+    padding: 2px;
+    color: rgba(0, 0, 0, 1);
+}
+.link a{
+    text-decoration: none;
+    padding:2px 5px;
+}
+.home-content{
+    background-color: rgba(245, 222, 179,0.6);  
+    border: 5px solid rgb(78, 78, 122);
+    border-radius: 20px;  
+    font-size: 2.3ch;
+    padding: 2.5ch;
+    width: 70%;
+}
+p{
+    padding: 1.2em;
+}
+.home-content2{
+    background-color: rgba(245, 222, 179,0.6);  
+    border: 5px solid rgb(78, 78, 122);
+    border-radius: 20px;  
+    font-size: 2.3ch;
+    padding: 2.5ch;
+    width: 70%;
+}
+.menuPage{
+    background-color: rgba(245, 222, 179,0.6);  
+    border: 5px solid rgb(78, 78, 122);
+    border-radius: 25px;  
+    font-size: 2.3ch;
+    padding: 2.5ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+.menuPage ul{
+    list-style: none;
+    padding: 35px;
+}
+.menuPage ul:first-of-type{
+    border-right: 2px solid black;
+    margin-right: 26px;
+}
+.menuPage li{
+    padding: 20px;
+}
